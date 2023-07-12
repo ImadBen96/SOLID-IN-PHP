@@ -2,7 +2,11 @@
 
 namespace Players;
 
-class ElhadaryChild
+class ElhadaryChild extends ElhadaryFather
 {
+    public function Keeping()
+    {
+        return "Child Good Keeping";
+    }
 
 }
