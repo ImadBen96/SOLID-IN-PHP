@@ -6,5 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Players\\' => array($baseDir . '/Players'),
+    'Interfaces\\' => array($baseDir . '/Interfaces'),
     'ImadGn\\SolidInPhp\\' => array($baseDir . '/src'),
+    'Classes\\' => array($baseDir . '/Classes'),
 );

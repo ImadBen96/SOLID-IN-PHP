@@ -1,16 +1,19 @@
 {
     "name": "imad-gn/solid-in-php",
     "description": "SOLID IN PHP",
-    "autoload": {
-        "psr-4": {
-            "ImadGn\\SolidInPhp\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Imad gannoun",
-            "email": "75321420+ImadBen96@users.noreply.github.com"
+            "email": "ibenomar536@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ImadGn\\SolidInPhp\\": "src/",
+            "Classes\\": "Classes",
+            "Interfaces\\": "Interfaces",
+            "Players\\": "Players"
+        }
+    }
 }
